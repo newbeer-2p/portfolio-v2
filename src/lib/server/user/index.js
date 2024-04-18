@@ -1,0 +1,1 @@
+export { getAuthor } from "$lib/server/user/user"

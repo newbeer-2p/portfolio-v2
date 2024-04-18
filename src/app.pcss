@@ -1,0 +1,70 @@
+/* Write your global styles here, in PostCSS syntax */
+
+@tailwind base;
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: NotoSansThai;
+	src: url('/fonts/NotoSansThai-Regular.ttf');
+}
+
+@font-face {
+	font-family: AstroThin;
+	src: url('/fonts/AstroThin.ttf');
+}
+
+@font-face {
+	font-family: Kanit;
+	src: url('/fonts/Kanit-Regular.ttf');
+}
+
+* {
+	font-family: AstroThin, sans-serif;
+	/* font-family: Kanit, sans-serif; */
+	box-sizing: border-box;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.full-screen {
+	width: 100vw;
+	height: 100vh;
+}
+
+.input-item {
+	@apply input rounded-lg px-2 py-1;
+}
+
+.gradient-orange, .text-gradient-orange {
+	@apply bg-gradient-to-r from-orange-300 to-orange-500;
+
+}
+.text-gradient-orange {
+	@apply bg-clip-text text-transparent;
+}
+
+.gradient-blue {
+	@apply bg-gradient-to-r from-blue-300 to-blue-500;
+}
+
+.gradient-green {
+	@apply bg-gradient-to-r from-green-300 to-green-500;
+}
+
+.gradient-purple {
+	@apply bg-gradient-to-r from-purple-300 to-purple-500;
+}
+
+.gradient-yellow {
+	@apply bg-gradient-to-r from-yellow-300 to-yellow-500;
+}
