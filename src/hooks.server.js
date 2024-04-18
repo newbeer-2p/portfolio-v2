@@ -13,6 +13,5 @@ export const handle = async ({ event, resolve }) => {
             throw redirect(303, "/admin/dashboard")
         }
     }
-
     return resolve(event)
 }
